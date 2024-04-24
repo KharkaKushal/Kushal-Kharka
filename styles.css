@@ -1,0 +1,64 @@
+/* CSS for Innovations in Space Tourism */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background: #0D47A1; /* Deep Blue */
+  color: #fff;
+  padding: 1.5rem 0;
+  text-align: center;
+  position: relative;
+}
+
+header h1 {
+  margin: 0;
+  font-family: 'Space Mono', monospace;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+section h2, section h3 {
+  font-family: 'Space Mono', monospace;
+  color: #D500F9; /* Vivid Purple */
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+  font-style: italic;
+  background: #76FF03; /* Bright Green */
+  border-left: 5px solid #333;
+  margin: 20px;
+  padding: 20px;
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+  .container {
+      width: 80%;
+      margin: auto;
+  }
+}
